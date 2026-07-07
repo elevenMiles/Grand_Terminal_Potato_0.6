@@ -1,19 +1,19 @@
 # Grand Terminal Potato 0.6 🥔
 
-An independent, custom-built 3D software rendering engine written entirely from scratch in C++. This project renders a fully real-time 3D viewport using monochrome ASCII/text characters running purely inside the native Windows Command Prompt. 
+An independent, custom-built 3D rendering engine written entirely from scratch in C++. This project renders a fully real-time 3D viewport using ASCII/text characters running purely inside the Windows Command Prompt. 
 
-> **⚠️ Disclaimer:** This is a non-commercial, open-source technical showcase and parody project built entirely for educational and portfolio purposes. 
+> **Disclaimer:** This is a non-commercial, open-source technical showcase and parody project built entirely for educational and portfolio purposes.
 
 ---
 
-## 🚀 System Requirements & Compatibility
+## System Requirements & Compatibility
 
 * **Platform:** Windows Only.
-* **IDE:** Optimized for compilation via **Visual Studio**.
+* **IDE:** Compile with **Visual Studio**.
 
 ---
 
-## 🔧 Critical First-Time Setup Instructions
+## Critical First-Time Setup Instructions
 
 Because this engine renders high-resolution 3D environments using standard console characters, you **must** manually adjust your terminal's buffer and display scaling upon launch to see the image correctly:
 
@@ -23,7 +23,7 @@ Because this engine renders high-resolution 3D environments using standard conso
 
 ---
 
-## 🎮 Controls
+## Controls
 
 Navigate through the 3D space using your keyboard. The engine supports full 3D translation and horizontal rotation tracking:
 
@@ -40,7 +40,6 @@ Navigate through the 3D space using your keyboard. The engine supports full 3D t
 
 ---
 
-## 🛠️ Technical Overview
+This project bypasses modern graphics APIs (like DirectX or OpenGL) to demonstrate the fundamentals of computer graphics pipeline mathematics entirely on the CPU
 
-This project bypasses modern graphics APIs (like DirectX or OpenGL) to demonstrate the fundamentals of computer graphics pipeline mathematics entirely on the CPU:
-* **Custom Math Pipeline:** Hand-coded 3D vector operations (`Vector3`, `Vector4`) and $4 \times 4$ transformation matrices for projection, rotation, and translation.
+Author: T. Selcuk Yuksel
