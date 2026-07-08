@@ -5,6 +5,10 @@ An independent, custom-built 3D rendering engine written entirely from scratch i
 > **Disclaimer:** This is a non-commercial, open-source technical showcase and parody project built entirely for educational and portfolio purposes.
 
 ---
+ 
+![Grand Terminal Potato 0.6 Trailer](media/gtp_0.6_trailer.gif)
+ 
+---
 
 ## System Requirements & Compatibility
 
