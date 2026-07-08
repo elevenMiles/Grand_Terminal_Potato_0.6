@@ -46,4 +46,4 @@ Navigate through the 3D space using your keyboard. The engine supports full 3D t
 
 This project bypasses modern graphics APIs (like DirectX or OpenGL) to demonstrate the fundamentals of computer graphics pipeline mathematics entirely on the CPU
 
-Author: T. Selcuk Yuksel
+*Author: T. Selçuk Yüksel*
